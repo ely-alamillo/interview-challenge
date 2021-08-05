@@ -3,7 +3,7 @@ import React, { useEffect } from 'react'
 import { ThemeProvider } from 'theme-ui'
 import theme from '../theme'
 
-import Layout from '../components/Layout'
+import { Layout } from '../components'
 
 const MyApp = (props) => {
   const { Component, pageProps } = props
